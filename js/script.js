@@ -19,7 +19,7 @@ const hintButton = document.querySelector(".get-hint");
 let word = "magnolia";
 let guessedLetters = [];
 //Number of gueses
-let numOfGuesses = 2;
+let numOfGuesses = 8;
 //Added mod to reset number of guesses in one place
 let remainingGuesses = numOfGuesses;
 let hintAlready = false;
@@ -233,7 +233,3 @@ hintButton.addEventListener("click", function() {
   hintButton.classList.add("hide");
   hintAlready = true;
 });
-
-
-
-\
